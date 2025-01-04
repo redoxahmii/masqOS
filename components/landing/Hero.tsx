@@ -6,10 +6,11 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import React from "react";
 import laptop from "@/public/mockups/Third.png";
+
 export default function Hero() {
   return (
     <>
-      <div className="flex items-center justify-center mt-20">
+      <div className="flex items-center justify-center mt-32">
         <motion.div
           variants={HomeAnimation}
           initial="initial"
@@ -39,7 +40,7 @@ export default function Hero() {
 
           <motion.p
             variants={HomeAnimation}
-            className="text-center text-sm md:text-base"
+            className="text-center text-sm md:text-base mt-5"
           >
             Future of Computing with MASQ-OS, a Free and Open-Source Operating
             System. Built on the Rock-Solid Foundation of{" "}

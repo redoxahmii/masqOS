@@ -3,7 +3,7 @@ export type SiteConfig = typeof siteConfig;
 export const siteConfig = {
   name: "MASQ-OS",
   description:
-    "MASQ-OS is a free and open-source operating system for the modern web.",
+    "Future of Computing with MASQ-OS, a Free and Open-Source Operating System. Built on the Rock-Solid Foundation of Debian designed to be Ultra-Secure, Lightning-Fast, and Beautiful",
   navItems: [
     {
       label: "Home",
